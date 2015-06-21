@@ -244,7 +244,7 @@
                 <version>2.2</version>
                 <configuration>
                     <port>9090</port>
-                    <path>/TrackerApp</path>
+                    <path>/reminders</path>
                 </configuration>
             </plugin>
 
