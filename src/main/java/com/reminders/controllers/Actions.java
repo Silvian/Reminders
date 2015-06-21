@@ -1,4 +1,4 @@
-package com.reminders;
+package com.reminders.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -14,7 +14,7 @@ public class Actions {
     @RequestMapping(value = {"/", "/index"}, method = RequestMethod.GET)
     public String displayIndex(Model model) {
 
-        return "index";
+        return "redirect:pages/index.html";
     }
 
 }

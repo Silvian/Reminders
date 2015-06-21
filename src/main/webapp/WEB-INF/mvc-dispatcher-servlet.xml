@@ -26,6 +26,7 @@
 
 
 	<resources mapping="/resources/**" location="/resources/" />
+    <resources mapping="/pages/**" location="/WEB-INF/pages/" />
 
 	<annotation-driven />
 
